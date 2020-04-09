@@ -1,0 +1,61 @@
+##### THIS FILE IS BEING CURRENTLY MANAGED BY URXVTCONFIG #####
+##### CHANGES DONE TO THIS FILE MANUALLY MAY AFFECT THE FUNCTIONALITY ######
+##### PROCEED WITH CAUTION! #####
+! special
+*.foreground:   #444444
+*.background:   #e6ecec
+*.cursorColor:  #636363
+
+! black
+*.color0:       #e6ecec
+*.color8:       #9ba6ac
+
+! red
+*.color1:       #cd5e79
+*.color9:       #cd5e79
+
+! green
+*.color2:       #3e814c
+*.color10:      #3e814c
+
+! yellow
+*.color3:       #e5a537
+*.color11:      #e5a537
+
+! blue
+*.color4:       #004ee9
+*.color12:      #004ee9
+
+! magenta
+*.color5:       #822074
+*.color13:      #822074
+
+! cyan
+*.color6:       #005c5c
+*.color14:      #005c5c
+
+! white
+*.color7:       #767676
+*.color15:      #444444
+st.termname: st-256color
+###st.cursorColor: #383c3e
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+
+URxvt*transparent:       false
+URxvt*shading:       100
+
+URxvt*depth: 32
+URxvt.background: [100]#eceff4
+
+URxvt.font: xft:xos4 Terminus:pixelsize=8
+URxvt.letterSpace: 0
+
+*antialias:  true
+*autohint:   true
+URxvt.termName: rxvt-unicode-256color
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: chromium
+
+URxvt.matcher.button: 1
+
